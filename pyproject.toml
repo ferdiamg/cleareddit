@@ -1,0 +1,15 @@
+[project]
+name = "cleareddit"
+version = "0.1.0"
+description = "Local, resumable cleanup of your own Reddit comments and posts"
+requires-python = ">=3.10"
+
+[project.scripts]
+cleareddit = "cleareddit:main"
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+py-modules = ["cleareddit"]
